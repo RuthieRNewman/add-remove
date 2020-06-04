@@ -1,5 +1,4 @@
 
-
 #dragon {
   display: none;
 }
@@ -10,4 +9,8 @@
 
 #unicorn {
   display: none;
+}
+
+.btn {
+  display: block;
 }
