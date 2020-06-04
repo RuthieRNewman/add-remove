@@ -1,7 +1,13 @@
 $(document).ready(function(){
   $(#yourName).submit(function(){
+    const userName = $("input#yourName").val();
     event.preventDefault();
-    const name =($(#yourName).val());
-  })
-})
+  });
+});
 
+$(document).ready(function(){ 
+$(#born).submit(function(){
+const dob = $("#born").val();
+event.preventDefault();
+});
+});
