@@ -11,3 +11,10 @@ const dob = $("#born").val();
 event.preventDefault();
 });
 });
+
+$(document).ready(function(){ 
+  $(#color).submit(function(){
+  const favColor = $("#color").val();
+  event.preventDefault();
+  });
+  });
